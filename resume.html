@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume</title>
+        <style>
+            
+        html,body {
+            height: 100%;
+            margin: 0;
+            overflow: auto;
+            scroll-behavior: smooth;
+            font-family: Bahnschrift;
+            background-color: #0c131b;
+
+        }
+
+        .menu {
+          font-family: Bahnschrift;
+          border-collapse: collapse;
+          width: 100%;
+          position: fixed;
+          
+        }
+        
+        td, th {
+          border: 0px;
+          text-align: center;
+          padding: 8px;
+          width: 21.5%;
+        }
+        
+        tr:nth-child(odd) {
+          background-color: #0c131b;
+        }
+
+        a {
+            padding: 20px;
+            width: 100px;
+            display: block;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        #bnhs{
+            width: 400px;
+            height: 300px;
+            margin-top: 12%;
+            margin-left: -40%;
+            border-radius: 5%;
+            position: static;
+        }
+
+        #cmi{
+            width: 400px;
+            height: 300px;
+            margin-top: 12%;
+            margin-left: 10%;
+            border-radius: 5%;
+            position: static;
+        }
+
+        #highschool{
+            text-align: center;
+            margin-left: -49%;
+            margin-top: -5.66%;
+            position: static;
+        }
+
+        #high_details{
+            text-align: center;
+            margin-left: -51.66%;
+            margin-top: -11%;
+            position: static;
+            
+        }
+
+        #college{
+            text-align: center;
+            margin-left: 50%;
+            margin-top: -42.20%;
+            position: static;
+        }
+
+        #college_details{
+            text-align: center;
+            margin-left: 52%;
+            margin-top: -11%;
+            position: static;
+            
+        }
+
+        div{
+            height: 100%;
+            background: #182825;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        p {
+            letter-spacing: 2px;
+            margin-left: 150px;
+            margin-block-start: 250px;
+            margin-top: -15px;
+            font-family: Bahnschrift;
+            color: #DD0426;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: Bahnschrift;
+            color:#ffff;
+        }
+
+        h2 {
+            margin-left: 150px;
+            margin-block-start: 250px;
+            margin-top: -30px;
+            font-family: Bahnschrift;
+            color: #ffff;
+        }
+
+        h3 {
+            margin-block-start: 250px;
+            font-family: Bahnschrift;
+            color: #ffff;
+        }
+
+        h4 {
+            margin: 20px;
+            margin-top: 0px;
+            color: #DD0426;
+        }
+
+        #profile{
+            width: 400px;
+            height: 300px;
+            position: static;
+            margin-top: -150px;
+            margin-left: 650px;
+            border-radius: 5%;
+        }
+
+        .personal_details {
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            font-family: Bahnschrift;
+            height: 50%;
+            width: 100%;
+ 
+        }
+
+        .tdetails {
+            border: 1px solid #0c131b;
+            text-align: center;
+            padding: 8px;
+            border-width: 2px;
+            background-color: #FCA311;
+        }
+
+        .tdetails1 {
+            border: 1px solid #0c131b;
+            text-align: center;
+            padding: 8px;
+            border-width: 2px;
+            background-color: #F1D302;
+        }
+
+        .details:nth-child(odd) {
+            background-color: #A288A6;
+        }
+
+        .tcontacts {
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            font-family: Bahnschrift;
+            height: 50%;
+            width: 100%;
+ 
+        }
+
+        .tdcontacts {
+            border: 1px solid #0c131b;
+            text-align: center;
+            padding: 8px;
+            border-width: 2px;
+            background-color: #FCA311;
+        }
+
+        .tdcontacts1 {
+            border: 1px solid #0c131b;
+            text-align: center;
+            padding: 8px;
+            border-width: 2px;
+            background-color: #F1D302;
+        }
+
+        button{
+            border: 1px solid;
+            font-family: Bahnschrift;
+            font-weight: bold;
+            font-size: 28px;
+            margin-left: 580%;
+            margin-top: 5%;
+            width: 150%;
+            height: 100%;
+            border-color: #fff;
+            background-color: #DD0426;
+            color: #fff;
+        }
+
+        #home{
+            background-image: url("homebg.jpg");
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+        }
+
+        #about {
+            background-size: cover;
+            width: 100%;
+            height: 576px;
+            display: inline-block;
+            padding: 100px;
+            background-color: #0c131b;
+        }
+
+        #prsnldtls {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background-color: #182825;
+        }
+
+        #education {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            padding-bottom: 15%;
+            background-color: #0D1614;
+        }
+
+        #contacts {
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 10%;
+            display: inline-block;
+            background-color: #000000;
+        }
+        </style>
+        </head>
+        
+        <body>
+            <nav>
+                <table class="menu">
+                    <tr>
+                        <td><a href="#home">Home</a></td>
+                        <td><a href="#about">About</a></td>
+                        <td><a href="#prsnldtls">Personal Details</a></td>
+                        <td><a href="#education">Education</a></td>
+                        <td><a href="#contacts">Contacts</a></td>
+                    </tr>
+                </table>
+            </nav>
+
+            <div id="home">
+                <h3 style="margin-left: 150px;">
+                    Greetings! My name is 
+                </h3>
+                <p> 
+                    Izyne Howie S. Gallardo
+                </p>
+                <h2 style="font-size: 20px;">
+                    I am currently looking for a job in graphic design or web development.
+                    <br>
+                    I am willing to work part time!
+                    <br>
+                    I am a College Student and here is my HTML resume.
+                    <br>
+                    You will find out about my life, hobbies, skills, education background
+                    <br> 
+                    and how to contact me. Please enjoy!
+                </h2>
+            </div>
+            <div id="about">
+                <h1 style="margin: 20px">
+                    About Me
+                </h1>
+                <h4>
+                    College Student
+                </h4>
+                <h3 style="margin-top: 20px; margin-left: 20px">
+                    I am currently a College Student
+                    <br>
+                    and I love to creating and developing web pages.
+                    <br>
+                    I have the basic knowledge about programming
+                    <br>
+                    languages like Pyhton and HTML...
+                    <br> 
+                    and these languages are the current languages
+                    <br>
+                    I'm focusing with.
+                    <br>
+                <img id="profile" src="profile.jpg" alt="my_profile">
+                </h3>
+                <h1 style="margin: 20px;margin-top: -80px">
+                    Skills
+                </h1>
+                <h3 style="margin-top: 30px; margin-left: 20px">
+                    ► Computer Proficiency
+                    <br>
+                    ► Problem Solver
+                    <br>
+                    ► Idea Person
+                    <br>
+                    ► Multitasker
+                </h3>
+            </div>
+            <div id="prsnldtls">
+                <h1 align="center" style="margin: 100px">
+                    Personal Details
+                </h1>
+                <table class="personal_details">
+                    <tr class="details">
+                        <td class="tdetails">Age</td>
+                        <td class="tdetails">Birthday</td>
+                        <td class="tdetails">Address</td>
+                        <td class="tdetails">Gender</td>
+                        <td class="tdetails">Religion</td>
+                        <td class="tdetails">Civil Status</td>     
+                        <td class="tdetails">Citizenship</td>
+                    </tr>
+                    <tr class="details">
+                        <td class="tdetails1">19 years old</td>
+                        <td class="tdetails1">June 10, 2003</td>
+                        <td class="tdetails1">Bunsuran 1, Pandi, Bulacan</td>
+                        <td class="tdetails1">Male</td>
+                        <td class="tdetails1">Roman Catholic</td>
+                        <td class="tdetails1">Single</td>
+                        <td class="tdetails1">Filipino</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="education">
+                <h1 align="center" style="margin: 100px">
+                    Education
+                </h1>
+                <h4 id="highschool">
+                    High School
+                </h4>
+                <a id="bnhs" href="https://www.facebook.com/BunsuranNHS" target="_blank">
+                    <img id="profile" src="bnhs.jpg" alt="BNHS">        
+                </a>
+                <h3 id="high_details">
+                    BUNSURAN NATIONAL HIGH SCHOOL
+                    <br>
+                    (2016 - 2022)
+                    <br>
+                    <br>
+                    I studied at BNHS from year 2016-2022
+                    <br>
+                    and I've taken STEM strand or 
+                    <br>
+                    Science, Technology, Engineering, and Mathematics
+                    <br>
+                    I've graduated during COVID-19 pandemic and
+                    <br>
+                    luckily I've still got 95 gpa with modular learning.
+                    <br>
+                </h3>
+                <h4 id="college">
+                    College
+                </h4>
+                <a id="cmi" href="https://collegeofmaryimmaculate.edu.ph/courses.html" target="_blank">
+                    <img id="profile" src="cmi.jpg" alt="CMI">
+                </a>
+                <h3 id="college_details">
+                    COLLEGE OF MARY IMMACULATE
+                    <br>
+                    (2022 - Present)
+                    <br>
+                    <br>
+                    I am presently studying at CMI
+                    <br>
+                    and taking Bachelor of Science in Computer Science
+                    <br>
+                    I am a fresh men this year 2022-2023
+                    <br>
+                    and right now we are focusing on two languages
+                    <br> 
+                    Python and HTML.
+                    <br>
+                </h3>
+            </div>
+            <div id="contacts">
+                <h1 align="center" style="margin: 100px">
+                    Contacts
+                </h1>
+            <table class="tcontacts">
+                <tr class="trcontacts">
+                    <td class="tdcontacts">Phone Number</td>
+                    <td class="tdcontacts1">+63 970-779-4825</td>    
+                </tr>
+                <tr class="trcontacts">
+                    <td class="tdcontacts">E-mail Address</td>
+                    <td class="tdcontacts1">izynehowiegallardo@gmail.com</td>    
+                </tr>
+                <tr class="trcontacts">
+                    <td class="tdcontacts">Social</td>
+                    <td class="tdcontacts1">m.me/IzyneGallardo</td>
+               </tr>
+            </table>
+            <a href="mailto:izynehowiegallardo@gmail.com subject= We will hire you" target="_blank" >
+            <button>
+                Hire Me!
+            </button>
+            </a>
+            </div>
+        </body>
+</html>
